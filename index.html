@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Personnelle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 1em;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 2em;
+            margin: 1em;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 1em;
+        }
+        .social-icons a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur ma page personnelle</h1>
+    </header>
+    <nav>
+        <a href="#presentation">Présentation</a>
+        <a href="#competences">Compétences</a>
+        <a href="#experiences">Expériences</a>
+        <a href="#projets">Projets</a>
+        <a href="#blog">Blog</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="presentation">
+        <h2>Présentation personnelle</h2>
+        <p>Bonjour ! Je suis [Ton Nom], un(e) [ton métier/étudiant(e) etc.]. Passionné(e) par [ta passion], je me consacre à [ton activité principale].</p>
+        <img src="ton_image.jpg" alt="Photo de [Ton Nom]" style="width:200px;height:200px;">
+    </section>
+    <section id="competences">
+        <h2>Compétences</h2>
+        <ul>
+            <li>Compétence 1</li>
+            <li>Compétence 2</li>
+            <li>Compétence 3</li>
+        </ul>
+    </section>
+    <section id="experiences">
+        <h2>Expériences professionnelles</h2>
+        <p>Voici mes expériences professionnelles :</p>
+        <ul>
+            <li>Poste 1 chez Entreprise 1</li>
+            <li>Poste 2 chez Entreprise 2</li>
+            <li>Poste 3 chez Entreprise 3</li>
+        </ul>
+    </section>
+    <section id="projets">
+        <h2>Projets</h2>
+        <p>Voici quelques projets sur lesquels j'ai travaillé :</p>
+        <ul>
+            <li>Projet 1 : Description du projet 1</li>
+            <li>Projet 2 : Description du projet 2</li>
+            <li>Projet 3 : Description du projet 3</li>
+        </ul>
+    </section>
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Bienvenue sur mon blog où je partage mes réflexions et expériences :</p>
+        <ul>
+            <li><a href="blog_post_1.html">Article 1</a></li>
+            <li><a href="blog_post_2.html">Article 2</a></li>
+            <li><a href="blog_post_3.html">Article 3</a></li>
+        </ul>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Voici une sélection de mes travaux :</p>
+        <img src="projet_1.jpg" alt="Projet 1" style="width:200px;height:200px;">
+        <img src="projet_2.jpg" alt="Projet 2" style="width:200px;height:200px;">
+        <img src="projet_3.jpg" alt="Projet 3" style="width:200px;height:200px;">
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Vous pouvez me contacter via le formulaire ci-dessous :</p>
+        <form action="mailto:ton_email@example.com" method="post" enctype="text/plain">
+            <label for="name">Nom :</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email :</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message :</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+            <input type="submit" value="Envoyer">
+        </form>
+        <div class="social-icons">
+            <a href="https://facebook.com/ton_profil" target="_blank">Facebook</a>
+            <a href="https://twitter.com/ton_profil" target="_blank">Twitter</a>
+            <a href="https://linkedin.com/in/ton_profil" target="_blank">LinkedIn</a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 [Ton Nom]. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
+ Ajout de la page index.html
